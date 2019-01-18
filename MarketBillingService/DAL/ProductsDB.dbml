@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ProductsDB" Class="ProductsDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\ProductsDB.mdf;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="ProductsDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Products_Details" Member="Products_Details">
+    <Type Name="Products_Detail">
+      <Column Name="SL_NO" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SKU_PRODUCT_ID" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PRODUCT_DESC" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="PRODUCT_UNIT_PRICE" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="PRODUCT_COUNT_OFFER" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PRODUCT_OFFER_PRICE" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
