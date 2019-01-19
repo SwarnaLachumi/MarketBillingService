@@ -1,10 +1,11 @@
 # MarketBillingService
 Web Service
-Type:  WebService
-Name: MarketBillingService
+Type:  WebService |
+Name: MarketBillingService |
 Database: ProductsDB.mdf
 
 Services:
+
 ListProducts
 •	List all details of all products in the Product Catalogue 
 •	Return Type: DataTable
