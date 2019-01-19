@@ -1,5 +1,13 @@
 # MarketBillingService
 
+Requirement1: Client should consume this web service to calculate the total price for a number of items by summing their prices including applying any relevant discounts. 
+Applicable Service: GetCostGrandTotal
+
+Requirement2: Weekly offers for products change frequently so it is important to provide the ability to change them.
+Applicable Service: UpdateProductDetails
+
+Services that serves to prove good user interaction in CLI: GetReceipt,GetListValidItems,GetListInvalidItems,ListProducts
+
 Type:  WebService |
 Name: MarketBillingService |
 Database: ProductsDB.mdf
@@ -15,7 +23,7 @@ Services:
 
 2.GetCostGrandTotal
 •	Gives the Aggregate Price of all valid items added in Checkout 
-•	Return type: String Array
+•	Return type: String
 •   Input1: List of items in Cart | Input Type: string
 •	Valid Input Pattern:< SKUID1-UnitsPurchased>,<SKUID2-UnitsPurchased>
     o	Eg: A99-10,B15-2,C40-4
