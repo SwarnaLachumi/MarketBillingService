@@ -54,3 +54,5 @@ Services:
 •	List all details of all products in the Product Catalogue 
 •	Return Type: DataTable
 •	Input: NA
+
+*****If input is incorrect, Code is handled in most cases to ignore it and lets the user know that their input is wrong *****So it can be tested also with Negative scenarios
