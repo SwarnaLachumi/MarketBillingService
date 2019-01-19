@@ -1,4 +1,5 @@
 # MarketBillingService
+MarketBilling Service serves to calculate the TotalPrice and returns Purchase Receipt to Client machine during basket checkout in Supermarket.It also serves to update special offer discounts for products and send information to client about the updated product catalogue whenever required.
 
 Requirement1: Client should consume this web service to calculate the total price for a number of items by summing their prices including applying any relevant discounts. 
 Applicable Service: GetCostGrandTotal
