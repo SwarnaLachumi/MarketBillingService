@@ -23,6 +23,11 @@ namespace MarketBillingService
         public AccessData AccessData = new AccessData();
        
         [WebMethod]
+        public bool IsServiceAvailable()
+        {
+            return true;
+        }
+        [WebMethod]
         public DataTable ListProducts()
         {
 
