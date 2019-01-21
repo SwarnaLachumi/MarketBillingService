@@ -1,6 +1,13 @@
 # MarketBillingService
 MarketBilling Service serves to calculate the TotalPrice and returns Purchase Receipt to Client machine during basket checkout in Supermarket.It also serves to update special offer discounts for products and send information to client about the updated product catalogue whenever required.
 
+Steps to run the Service:
+1. Open the "MarketBillingService" solution via. Visual Studio ( For Development, I have used VS Community 2017 v15.9.5 ).
+2. MANDATORY to "Clean and Rebuild" option in the solution 
+3. Open MarketBillingSystem.asmx file from the solution and run it.
+4. Your web service will be launched in your browser eg.http://localhost:58188/MarketBillingSystem.asmx 
+5. You will see the list of services available to invoke in ( Details of the Service functionalities stated below ).
+
 Requirement1: Client should consume this web service to calculate the total price for a number of items by summing their prices including applying any relevant discounts. 
 Applicable Service: GetCostGrandTotal
 
