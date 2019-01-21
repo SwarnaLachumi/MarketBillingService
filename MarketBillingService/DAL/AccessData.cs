@@ -27,7 +27,7 @@ namespace MarketBillingService.DAL
             }
         private void FillData()
         {
-            string strConnectionString = ConfigurationManager.ConnectionStrings["conn"].ConnectionString;
+            string strConnectionString = ConfigurationManager.ConnectionStrings["ProductsDBConnectionString"].ConnectionString;
             string query = "select * from Products_details";
             SqlConnection Connection = new SqlConnection(strConnectionString);
             SqlCommand cmd = new SqlCommand(query, Connection);
