@@ -1,5 +1,5 @@
 # MarketBillingService
-MarketBilling Service serves to calculate the TotalPrice and returns Purchase Receipt to Client machine during basket checkout in Supermarket.It also serves to update special offer discounts for products and send information to client about the updated product catalogue whenever required.
+MarketBilling Service serves to calculate the TotalPrice and returns Purchase Receipt to Client machine on request during basket checkout in Supermarket.It also serves to update special offer discounts for products and send information to client about the updated status,reflects the update in product catalogue on request from client.
 
 Steps to run the Service:
 1. Open the "MarketBillingService" solution via. Visual Studio ( For Development, I have used VS Community 2017 v15.9.5 ).
